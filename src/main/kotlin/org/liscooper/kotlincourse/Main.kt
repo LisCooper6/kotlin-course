@@ -1,4 +1,4 @@
-package com.liscoper
+package com.liscoper.org.liscooper.kotlincourse
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -14,3 +14,42 @@ fun main() {
         println("i = $i")
     }
 }
+val name: String = "Alisa"
+
+var age: Int =  25
+
+const val PI = 3.14
+
+lateinit var userinfo: String
+
+val lazyValue: String by lazy {"Hello, this is a lazy string"}
+
+var speed: Double? = null
+
+var count: Int = 0
+        get () = field
+    set (value) {
+        if (value >= 0) field = value
+    }
+
+fun countUp() {
+    count = -1
+}
+
+val chassis: String = "1234abc"
+
+var colour: String = "Blue"
+
+var distance: Double = 0.0
+
+lateinit var owner: String
+
+const val WHEELS: Int = 4
+
+val report: String by lazy {""}
+
+var fuel: Double = 0.0
+    get() = field
+    set(value) {
+        if (value >= 0) field += value
+    }
