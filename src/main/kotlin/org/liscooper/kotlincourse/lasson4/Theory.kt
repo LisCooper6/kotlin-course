@@ -26,7 +26,7 @@ val strings: List<String> = listOf("one", "two", "one")
 val doubles: Set<Double> = setOf(23.3, 56.8)
 
 val keysToValues: Map<String, String> = mapOf(
-    "Ключ 1" to "Значение 1"
+    "Ключ 1" to "Значение 1",
     "Ключ 2" to "Значение 2"
 )
 val anuthing: Any = false
