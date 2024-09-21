@@ -19,7 +19,12 @@ fun main () {
     number += 3
     number /= 2
 
-    val example = (10 - 5 >= 5) || (2 * 3 != 6)
+    val example = {
+    }
+    var f = 6
+    --f >= 5
+    ((3 * 2 == 6) && (9 - 4 != 5))
+}
 
 
 
