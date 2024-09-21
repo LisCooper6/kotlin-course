@@ -19,14 +19,11 @@ fun main () {
     number += 3
     number /= 2
 
-    val example = {
-    }
-    var f = 6
-    --f >= 5
-    ((3 * 2 == 6) && (9 - 4 != 5))
-}
+    val example = !(3 + 3 == 6)
 
 
 
-    println(example)
+
+ println(example)
+    return
 }

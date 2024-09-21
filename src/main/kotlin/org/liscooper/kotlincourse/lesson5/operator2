@@ -2,11 +2,11 @@
 (12 / 3 > 3) && (5 * 2 == 10) пример решения: true && true = true
 (14 - 4 <= 10) || (6 / 2 != 3) true || true = true
 (9 + 1 == 10) && (8 % 2 == 0) true && true = true
-(7 - 2 < 5) || (4 * 3 != 12) true || true = tru
+(7 - 2 < 5) || (4 * 3 != 12) true || true = true
 (18 / 6 >= 3) && (5 + 5 == 10) true && true = true
-(11 % 3 != 2) || (9 - 3 == 6) true || true = tru
+(11 % 3 != 2) || (9 - 3 == 6) true || true = true
 (5 * 2 < 11) && (14 / 2 == 7) true && true = true
-(8 + 2 <= 10) || (7 % 2 != 1) true || true = tru
+(8 + 2 <= 10) || (7 % 2 != 1) true || true = true
 (16 / 4 > 3) && (3 + 4 == 7) true && true = true
 (10 % 2 == 0) || (5 - 3 != 1) true || true = true
 
